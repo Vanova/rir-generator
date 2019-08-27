@@ -1,5 +1,7 @@
 # RIR-Generator
 
+In this repository we combine two methods of IR generators.  
+
 The image method, proposed by Allen and Berkley in 1979 [1], is probably one of the most frequently used methods in the acoustic signal processing community to create synthetic room impulse responses. 
 A mex-function, which can be used in MATLAB, was developed to generate multi-channel room impulse responses using the image method. 
 This function enables the user to control the reflection order, room dimension, and microphone directivity. 
