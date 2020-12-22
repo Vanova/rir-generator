@@ -31,7 +31,7 @@ mic_position = np.array([[0., -0.03813, -0.02898, 0.01197, 0.03591, 0.03281, 0.0
                          [0., 0.00358, 0.03204, 0.03638, 0.01332, -0.01977, -0.03797, -0.02758]])
 # move mics to the center of the room
 xy_center = np.array(room_dim[:2]) / 2.
-mic_location = mic_position + xy_center[:, np.newaxis]  # [[x], [y], [z]]
+mic_location = mic_position + xy_center[:, np.newaxis]  # [[x], [y]]
 mic_location = np.vstack([mic_location,
                           np.repeat(room_dim[2], mic_n)])
 

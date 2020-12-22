@@ -11,7 +11,6 @@ import config as cfg
 
 
 def generate_room_impulse(azimuth, radius, rir_out_dir):
-# TODO check SNR 30dB
     for phi in azimuth:
         for r in radius:
             # set max_order to a low value for a quick (but less accurate) RIR
